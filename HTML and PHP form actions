@@ -1,0 +1,35 @@
+<!DOCTOR HTML PUBLIC "-//W3//DTD// HTML .0//EN"
+"http://w3.org/TR/html4/strict.dtd"
+>		
+
+
+<html lang="en">
+<head>
+	<title>Insert Employee</title>
+</head>
+<body>
+			<form action="inserting.php" method="poster">
+            <p>Work Item:<br/>
+            <input type="text" name="workItem"/>
+			
+			<p>Early Task Start:</p>
+			<input type="date" name="eStart"/>
+			
+			<p>Early Task End:</p>
+			<input type="date" name="eEnd"/>
+			
+			<p>Dependency:</p>
+			<input type="text" name="dependency"/>
+			
+			<p>Late Task Start:</p>
+			<input type="date" name="lStart"/>
+			
+			<p>Late Task End:</p>
+			<input type="date" name="lEnd"/>
+			</p>
+			<input type="submit" value="Save"> </input>
+			</form>
+		</body>
+	</html>
+			
+			
