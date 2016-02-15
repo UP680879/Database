@@ -7,7 +7,7 @@ like the use, host, server and password
 */
 	$conn_error = 'Not connected'; // this is the message error 
 	
-	$db_name = "employees";  // this is the database name
+	$db_name = "INSE";  // this is the database name
 	
 	$un = 'root1';    // this is the username 
 	
@@ -15,7 +15,7 @@ like the use, host, server and password
 	
 	$host = 'localhost';  // this is the localhost server
 	
-	@mysql_connect($host, $un, $pw) or die(mysql_error($conn_error));
+	$conn = @mysql_connect($host, $un, $pw) or die(mysql_error($conn_error));
 
 	//Here we keep recored of the sql command for do the coonection to the database	
 
